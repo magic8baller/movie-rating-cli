@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/movie"
+
+movies = {
+        "The Godfather Part 2": 4,
+        "What We Do in the Shadows": 4,
+        "The Master": 0,
+        "Hot Fuzz": 4,
+        "Teen Witch": 2,
+        }
+        
+run_list(movies)
